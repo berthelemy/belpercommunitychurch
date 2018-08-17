@@ -12,3 +12,4 @@ finishtime: 2000
 category: Special
 layout: event
 ---
+This year the focus is on the persecuted church around the world.
