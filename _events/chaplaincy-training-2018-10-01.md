@@ -1,8 +1,8 @@
 ---
 title: "Chaplaincy training"
-venue: St Swithuns
-address: 65 Holbrook Rd, Belper
-postcode: 'DE56 1PA'
+venue: Willersley Castle
+address: Cromford
+postcode: 'DE4 5JH'
 allday: false
 description: 
     For aspiring and curent chaplains
