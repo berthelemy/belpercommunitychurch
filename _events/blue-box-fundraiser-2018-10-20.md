@@ -18,3 +18,5 @@ layout: event
 Teams of 6 ... Arrive at 7 ish for 7:30 start
 
 Let Elle Wyke or Sarah Bradbury know, as numbers are filling up!
+
+<a href="http://www.blueboxbelper.co.uk/" target="_blank">More information about the Blue Box project</a>
