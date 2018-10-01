@@ -1,6 +1,6 @@
 ---
-background-image: 
-background-alt: ''
+background-image: /assets/slider-imgs/P1020563.JPG
+background-alt: 'Sunset'
 foreground-image: 
 foreground-alt: ''
 heading: 'BCC is becoming Reach Belper'
