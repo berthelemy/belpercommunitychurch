@@ -10,7 +10,7 @@ when: 2018-10-25
 starttime: 0930
 finishtime: 1130
 category:
-    Special
+    Training
 layout: event
 ---
 House of prayer style with tea and biscuits - please ask Sarah Bradbury for details
