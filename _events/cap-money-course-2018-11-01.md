@@ -9,7 +9,7 @@ description:
 when: 2018-11-01
 starttime: 19:30
 finishtime: 21:30
-category: Conference
+category: Training
 layout: event
 ---
 A money management course that teaches budgeting skills and a simple, cash-based system that really works.
