@@ -7,8 +7,8 @@ allday: false
 description: 
   
 when: 2018-11-15
-starttime: 19:30
-finishtime: 21:30
+starttime: 1930
+finishtime: 2130
 category: Conference
 layout: event
 ---
