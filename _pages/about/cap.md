@@ -27,6 +27,22 @@ The next step is for CAP to contact your secondary creditors, such as credit car
  
 Call <strong>0800 328 0006</strong> to book an appointment with our Belper Debt Centre.
 
+<h2>CAP Money Course</h2>
+
+The CAP Money Course is a revolutionary money management course that teaches people budgeting skills and a simple, cash-based system that really works.
+
+This course will help anyone to get more in control of their finances, so they can save, give and prevent debt. The CAP Money Course is a course devised by the award winning debt counselling charity, Christians Against Poverty.
+
+[More information](https://capuk.org/i-want-help/courses/cap-money-course/introduction)
+
+> Great course, eye opener
+
+> I thought the whole course fantastic, thanks for your flexibility and care
+
+> It was really welcoming, fun and a friendly atmosphere....you were all very approachable, with useful experience.
+
+> Brilliant course, well hosted and good group discussion.
+
 
   
 
