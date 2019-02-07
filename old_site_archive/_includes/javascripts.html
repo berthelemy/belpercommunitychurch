@@ -1,0 +1,98 @@
+<!-- Included Javascript files -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/responsive/2.2.0/js/dataTables.responsive.min.js"></script>
+  <!-- Docs at: https://datatables.net/ -->
+
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+  
+  <!-- Bootstrap -->
+  <script src="{{ site.themeurl }}/assets/js/bootstrap.js"></script>
+  <!-- Slick Slider -->
+  <script type="text/javascript" src="{{ site.themeurl }}/assets/js/slick.js"></script>    
+  <!-- counter -->
+  <script src="{{ site.themeurl }}/assets/js/waypoints.js"></script>
+  <script src="{{ site.themeurl }}/assets/js/jquery.counterup.js"></script>
+  <!-- Wow animation -->
+  <script type="text/javascript" src="{{ site.themeurl }}/assets/js/wow.js"></script> 
+  <!-- progress bar   -->
+  <script type="text/javascript" src="{{ site.themeurl }}/assets/js/bootstrap-progressbar.js"></script>  
+  
+ 
+  <!-- Custom js -->
+  <script type="text/javascript" src="{{ site.themeurl }}/assets/js/custom.js"></script>
+
+  <script>
+
+  /* Custom filtering function which will find dates in column 1 for now onwards */
+    $.fn.dataTable.ext.search.push(
+        function( settings, data, dataIndex ) {
+            var yesterday = new Date();
+            yesterday.setDate(yesterday.getDate() - 1);
+            var eventDate = ( new Date(data[0]) ); // use data for the date column
+            if ( eventDate > yesterday ) // Hide old dates     
+              {
+                  return true;
+              }
+            return false;
+        }
+    );
+    
+    
+
+
+    $(document).ready( function () {
+
+
+
+    $('#calendar').DataTable( {
+      responsive: true,
+        "order": [[ 0, "asc" ]],
+
+        "columnDefs": [
+            {
+                "targets": [ 0 ],
+                "visible": false
+            },
+            { "width": "10%", "targets": 1 },
+            { "width": "10%", "targets": 6 }
+        ]
+      });
+
+     
+     $('#gatherings').DataTable( {
+       responsive: true,
+        "paging":   false,
+        "info": false,
+        "order": [[ 0, "asc" ]],
+
+        "columnDefs": [
+            {
+                "targets": [ 0, 2 ],
+                "visible": false
+            }
+        ]
+      });
+
+     var table = $('#gatherings').DataTable();
+     table.columns( 2 ).search( 'Gathering' ).draw();
+    } );
+
+    
+
+    
+
+
+
+
+
+    //
+
+
+    </script>
+
+
+
+   
