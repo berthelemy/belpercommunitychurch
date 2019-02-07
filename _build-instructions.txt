@@ -1,3 +1,0 @@
-# Build instructions
-
-bundle exec jekyll serve
